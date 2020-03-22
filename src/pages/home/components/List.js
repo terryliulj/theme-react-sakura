@@ -68,7 +68,7 @@ class ListWrapper extends PureComponent {
         return (
             <HomeList>
                 <FeatureTitle>
-                    <h1><i className='iconfont icon-envira'/><span> Discovery</span></h1>
+                    <h1><i className='iconfont icon-envira'/><span> Articles</span></h1>
                 </FeatureTitle>
                 {List(this.props)}
                 <PagInation

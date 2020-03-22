@@ -72,7 +72,7 @@ class Header extends PureComponent {
                                     <NavItem>
                                         <Link to={'/links'} className='nav-item'>
                                             <i className='iconfont icon-link'/>
-                                            <span>友人帐</span>
+                                            <span>友链资源</span>
                                         </Link>
                                     </NavItem>
                                     <NavItem>
@@ -178,7 +178,7 @@ class Header extends PureComponent {
                         <li>
                             <Link to={'/links'} className='item flex-items' onClick={this.openMonav}>
                                 <i className='iconfont icon-link'/>
-                                <span>友人帐</span>
+                                <span>友链资源</span>
                             </Link>
                         </li>
                         <li>

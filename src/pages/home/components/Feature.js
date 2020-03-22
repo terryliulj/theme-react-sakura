@@ -37,7 +37,7 @@ const Feature =(props)=> {
     return (
         <FeatureWrapper>
             <FeatureTitle>
-                <h1><i className='iconfont icon-anchor'/><span> START:DASH!!</span></h1>
+                <h1><i className='iconfont icon-anchor'/><span> 自荐博文</span></h1>
             </FeatureTitle>
             {featureList(props)}
         </FeatureWrapper>

@@ -63,7 +63,7 @@ class Links extends PureComponent {
                         <img className='lazyload' src={this.state.timg} alt=""/>
                     </div>
                     <div className='pattern-header '>
-                        <h1>友人帐</h1>
+                        <h1>友链资源</h1>
                     </div>
                 </LinksTop>
                 <MainWrapper>

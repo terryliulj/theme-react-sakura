@@ -380,7 +380,7 @@ export const Focusinfo = styled.div`
         height: 35px;
         float: left;
         margin:0 6px;
-        cursor: url(${require('../../statics/images/ayuda.cur')}),auto;
+        /* cursor: url(${require('../../statics/images/ayuda.cur')}),auto; */
         position: relative;
     }
     .top-social_v2 li {

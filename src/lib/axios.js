@@ -1,7 +1,9 @@
 import axios from 'axios';
 import {getToken} from './auth';
 
-axios.defaults.baseURL = '/api/blog';
+const baseURL = process.env.REACT_APP_BASE_API; // url = base url + request url
+
+axios.defaults.baseURL = !!baseURL ? baseURL : '/api/blog';
 // 添加请求拦截器
 axios.interceptors.request.use(function (config) {
     if (getToken()) {

@@ -33,7 +33,7 @@ class Banner extends PureComponent {
                 </div>
                 <Center style={{backgroundImage: banner, height: innerHeight + 'px'}}>
                     <Focusinfo>
-                        <h1 className='glitch' data-text="Helloblog!">Helloblog!</h1>
+                        <h1 className='glitch' data-text="happy together">happy together</h1>
                         {/*<div className='header-tou'>*/}
                         {/*    <img src={avatar}  alt=''/>*/}
                         {/*</div>*/}

@@ -7,7 +7,7 @@ const PagInation = (props) => {
     if (finished) {
         return (
             <PagWrapper>
-                <p>很高兴你翻到这里，但是真的没有了...</p>
+                <p>-----好吧，你看到了我的底线-----</p>
             </PagWrapper>
         )
     } else {
